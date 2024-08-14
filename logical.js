@@ -1061,58 +1061,58 @@
 
 
 
-function add() {
-  var count=0;
-  return{
-    increment:function (value) {
-      count=count+value
-      return count
-    },
-    multiply:function (value) {
-      if (count==0) {
-        // count=1;
-        // count=count*value
-        return "your count value is zero"
-        // return 
-      }
-      if (value==0) {
-        // count=1;
-        // count=count*value
-        return "your input value is zero"
-      }
+// function add() {
+//   var count=0;
+//   return{
+//     increment:function (value) {
+//       count=count+value
+//       return count
+//     },
+//     multiply:function (value) {
+//       if (count==0) {
+//         // count=1;
+//         // count=count*value
+//         return "your count value is zero"
+//         // return 
+//       }
+//       if (value==0) {
+//         // count=1;
+//         // count=count*value
+//         return "your input value is zero"
+//       }
 
-        count=count*value
-        return count
-    },
-    devide:function (value) {
-      if (count==0) {
-        // count=1;
-        // count=count/value
-        return "your count value is zero"
+//         count=count*value
+//         return count
+//     },
+//     devide:function (value) {
+//       if (count==0) {
+//         // count=1;
+//         // count=count/value
+//         return "your count value is zero"
         
-      }
-      if (value==0) {
-        return "your input value is zero"
-      }
-      count=count/value
-      return count
-    },
-    decrement:function (value) {
-      count=count-value
-      return count
-    },
-    getcout:function(value) {
-      return count
-    }
-  }
-}
-let fun=add()
-console.log(fun.increment(5));
+//       }
+//       if (value==0) {
+//         return "your input value is zero"
+//       }
+//       count=count/value
+//       return count
+//     },
+//     decrement:function (value) {
+//       count=count-value
+//       return count
+//     },
+//     getcout:function(value) {
+//       return count
+//     }
+//   }
+// }
+// let fun=add()
+// console.log(fun.increment(5));
 // console.log(fun.increment(8));
 // console.log(fun.increment(20));
-console.log(fun.multiply(2));
+// console.log(fun.multiply(2));
 // console.log(fun.multiply(5));
-console.log(fun.devide(5));
+// console.log(fun.devide(5));
 // console.log(fun.devide(2));
 
 
@@ -1175,3 +1175,80 @@ console.log(fun.devide(5));
 // }
 
 // console.log(login("sk12e@gmail.com","5678")());
+
+
+
+let number=[1,3,2,5,4,6]
+// let num=[7,8,9,0]
+// arr.push(5)
+// number.unshift(98)
+// number.pop()
+// number.shift()
+
+// const newnumber= number.join()
+// console.log(number);
+// console.log(typeof newnumber);
+
+// let newnumber=number.concat(num)
+// console.log(newnumber);
+// console.log(number.copyWithin(0,5));   
+
+
+
+// number.forEach(num => console.log(num/2));
+// number.sort()
+
+// console.log(number.length);
+// console.log(number.at(5));
+
+// let nm=number.map(num => num+2
+// )
+// console.log(nm);
+
+// let evennu= number.filter(num => num % 2 ===0)
+// let oddnu= number.filter(num => num % 2 !==0)
+console.log(number.filter(num => num>2&&num<6));
+// console.log(number.filter(num => num>=2&&num<=6));
+
+// console.log(evennu);
+// console.log(oddnu);
+
+
+// console.log(number);
+
+
+// console.log(newarr);
+
+
+// console.log(number[2]);
+
+// let intrate=number.entries() 
+
+// console.log(intrate.next().value)
+// console.log(intrate.next().value)
+// console.log(intrate.next().value)
+// console.log(intrate.next().value);
+// console.log(intrate.next().value);
+// console.log(intrate.next().value);
+// console.log(intrate.next().value);
+// console.log(intrate.next().value);
+// console.log(intrate.next().value);
+// console.log(intrate);
+
+// let c= number.every((ele) =>ele<50)   
+// console.log(c);
+
+// let a=number.fill(9,0,3)      
+// console.log(a);
+
+// console.log(number.find((num)=>num ==5));   
+
+// console.log(number.findIndex((ele)=>ele==5)); 
+// array of object 
+
+// console.log(number.indexOf(6));  
+
+// normal number index type me ho
+
+
+// console.log(number.findLast((ele)=>ele<5)); 

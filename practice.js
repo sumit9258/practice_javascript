@@ -12,7 +12,7 @@
 //         }
 //     }, 1000);
 // }
-// alarm(10,35)
+// alarm(12,25)
 
 // function login(email,password) {
 //     if (!email) {console.log("please enter your email");
@@ -96,22 +96,22 @@
 // }
 
 
-let user={
-    Name: "ravi",
-class: "bca",
-age:"20",education:{
-    address: "agra",
-    rollno: "45"
-}
+// let user={
+//     Name: "ravi",
+// class: "bca",
+// age:"20",education:{
+//     address: "agra",
+//     rollno: "45"
+// }
 
-}
-// let newuser=user
-let newuser=Object.assign({},user)
-// user.education.name="aarav"
-// newuser.Name="aarav"
-// let newuser={...user}
-console.log("user",user);
-console.log("newuser",newuser);
+// }
+// // let newuser=user
+// let newuser=Object.assign({},user)
+// // user.education.name="aarav"
+// // newuser.Name="aarav"
+// // let newuser={...user}
+// console.log("user",user);
+// console.log("newuser",newuser);
 
 
 
@@ -194,4 +194,74 @@ console.log("newuser",newuser);
 // }
 // console.log(loginotp("9876546321","5678"));
 
+
+
+// function call1() {
+//     return 10
+// }
+// function call2(a,callback) {
+//     console.log(callback() +a);
+//     return callback() +a
+// }
+// console.log(call2(10,call1));
+
+
+// function call() {
+//     return 10
+// }
+// function call1(a,callback) {
+//     console.log("please wait");
+    
+//     setTimeout(() => {
+//         console.log(callback() *a);
+//         return callback() *a
+//     }, 5000);
+// }
+// console.log(call1(10,call));
+
+
+// function clock() {
+//     let minuet=0
+//     let second=0
+//   setInterval(() => {
+//      second=second +1
+//         const date= new Date()
+//         console.log(parseInt(second/60 +":"+ second%60));
+        
+        // console.log(parseInt(date.getMinutes()+":"+date.getSeconds()));
+        // if (date.getHours()==hour&&date.getMinutes()==minuet) {
+            // console.log("alarm ringing");
+        // }
+// if (parseInt(date.getHours())&&date.getMinutes()>minuet) {
+//     clearInterval(time)
+// console.log("stop alarm");
+
+// }
+
+//     }, 1000);
+// }
+// clock()
+
+
+
+
+// work  
+
+let a= [8,3,5,4,2]
+let b= [1,2,3,4,5,]
+// console.log(a.findIndex((ele)=>ele==3 ));    //question 1
+
+// console.log(a.findLast((ele)=>ele<5 ));
+// console.log(a.find((ele)=>ele<5));     //question 3
+
+// console.log(a.find((ele)=>ele==3));      //question 4
+
+// console.log(a.filter((ele)=>ele%2==0));
+// console.log(a.filter((ele)=>ele%2!==0)); //question 5
+
+// console.log(a.filter(ele=>ele >3&&ele<5));    // question 7
+console.log(a.map(num=>num <<=a));
+
+
+// console.log(a.concat(b));      // question 8
 
